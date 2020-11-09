@@ -1,0 +1,9 @@
+<?php
+require('connection.php');
+require('functions.php');
+unset($_SESSION['ADMIN_LOGIN']);
+unset($_SESSION['ADMIN_ID']);
+unset($_SESSION['ADMIN_NAME']);
+header('location:index.php');
+die();
+?>

@@ -1,0 +1,9 @@
+<?php
+require('connection.php');
+require('functions.php');
+unset($_SESSION['SUPER_LOGIN']);
+unset($_SESSION['SUPER_ID']);
+unset($_SESSION['SUPER_NAME']);
+header('location:index.php');
+die();
+?>
